@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Victor Mono', monospace;
+    background-color: rgb(27, 86, 149);
+    color: rgb(158, 23, 144);
+}
+
