@@ -5,10 +5,31 @@
 html {
     font-size: 100%;
 }
+h1 {
+    color: rgb(255, 0, 242);
+  }
+  h2 {
+    color: blue;
+  }
+  h3 {
+    color: rgb(91, 39, 154);
+  }
 
 body {
     font-family: 'Victor Mono', monospace;
-    background-color: rgb(3, 9, 15);
-    color: rgb(183, 155, 180);
+    background-color: rgb(222, 227, 233);
+    color: rgb(11, 0, 10);
 }
+.button {
+    background-color: blue; /* Original background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .button:hover {
+    background-color: green; /* Background color changes on hover */
+  }
 
